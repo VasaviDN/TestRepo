@@ -72,6 +72,29 @@
             </objects>
             <point key="canvasLocation" x="21" y="4"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Hwv-SC-aDM">
+            <objects>
+                <viewController id="st2-K2-Nds" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xzO-2E-g7j">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag6-Ef-0aL">
+                                <rect key="frame" x="165" y="174" width="62" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Devil"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ksY-id-ibI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdx-XW-M5F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="12"/>
+        </scene>
     </scenes>
     <resources>
         <image name="HEART" width="402" height="360"/>
