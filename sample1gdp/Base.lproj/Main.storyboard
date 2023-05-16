@@ -90,10 +90,29 @@
                         <viewLayoutGuide key="safeArea" id="ksY-id-ibI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="Yak-eb-xYI" kind="show" id="vhF-b0-tkc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdx-XW-M5F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="12"/>
+            <point key="canvasLocation" x="792" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aHI-Xv-AqI">
+            <objects>
+                <viewController id="Yak-eb-xYI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VfL-20-GOj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Az7-G9-oD0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pfW-iH-JnA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KEg-aX-c82" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1607" y="4"/>
         </scene>
     </scenes>
     <resources>
