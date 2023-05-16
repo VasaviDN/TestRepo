@@ -69,6 +69,7 @@
                     </view>
                     <connections>
                         <segue destination="ywa-6Z-hSM" kind="show" id="XLA-Lp-waf"/>
+                        <segue destination="st2-K2-Nds" kind="show" id="hQo-7B-3ui"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -80,7 +81,7 @@
             <objects>
                 <viewController id="st2-K2-Nds" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xzO-2E-g7j">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag6-Ef-0aL">
@@ -93,6 +94,7 @@
                         <viewLayoutGuide key="safeArea" id="ksY-id-ibI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="iCD-LL-glo"/>
                     <connections>
                         <segue destination="Yak-eb-xYI" kind="show" id="vhF-b0-tkc"/>
                     </connections>
